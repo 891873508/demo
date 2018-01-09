@@ -27,6 +27,16 @@
 		18A5873C1B2695A7000344F0 /* libStreamPlayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A5873B1B2695A7000344F0 /* libStreamPlayLib.a */; };
 		18A8FB8B1AEB4835002078D9 /* libfaac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB891AEB4835002078D9 /* libfaac.a */; };
 		18A8FB8C1AEB4835002078D9 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB8A1AEB4835002078D9 /* libmp4v2.a */; };
+		65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */; };
+		65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */; };
+		65A2D4AC2004981000910DBA /* UIView+MydefineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4AB2004981000910DBA /* UIView+MydefineView.m */; };
+		65A2D4AE200498B200910DBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A2D4AD200498B200910DBA /* UIKit.framework */; };
+		65A2D4B2200499E600910DBA /* JMDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4B1200499E600910DBA /* JMDropMenu.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		65A2D4B520049A4100910DBA /* CommonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4B420049A4100910DBA /* CommonCode.m */; };
+		65A2D4B920049AAA00910DBA /* CustomErImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4B820049AAA00910DBA /* CustomErImgView.m */; };
+		65A2D4BC20049ADA00910DBA /* CustomerSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4BB20049ADA00910DBA /* CustomerSearchBarView.m */; };
+		65A2D4BF20049B0700910DBA /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4BE20049B0700910DBA /* UIImage+Rotate.m */; };
 		B8738F231C507FD600D110A0 /* libIPCClientNetLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F470E1A7F679400295F8B /* libIPCClientNetLib.a */; };
 		B8738F261C50805000D110A0 /* HSLSearchDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B8738F251C50805000D110A0 /* HSLSearchDevice.m */; };
 		B87A8C271C9900B90017FD22 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87A8C261C9900B90017FD22 /* MediaPlayer.framework */; };
@@ -64,6 +74,26 @@
 		18A8FB8A1AEB4835002078D9 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4v2.a; path = testlib/lib/libmp4v2.a; sourceTree = "<group>"; };
 		29D20868EBD09B5C49DEAEBF /* Pods-testlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlib.release.xcconfig"; path = "Pods/Target Support Files/Pods-testlib/Pods-testlib.release.xcconfig"; sourceTree = "<group>"; };
 		35BBE47F7322FA76E81EF2BC /* libPods-testlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testlib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		65A2D4A7200497D400910DBA /* SVProgressHUD+SomeThingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+SomeThingDefine.h"; sourceTree = "<group>"; };
+		65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+SomeThingDefine.m"; sourceTree = "<group>"; };
+		65A2D4AA2004981000910DBA /* UIView+MydefineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MydefineView.h"; sourceTree = "<group>"; };
+		65A2D4AB2004981000910DBA /* UIView+MydefineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MydefineView.m"; sourceTree = "<group>"; };
+		65A2D4AD200498B200910DBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65A2D4B0200499D700910DBA /* JMDropMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMDropMenu.h; sourceTree = "<group>"; };
+		65A2D4B1200499E600910DBA /* JMDropMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMDropMenu.m; sourceTree = "<group>"; };
+		65A2D4B420049A4100910DBA /* CommonCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonCode.m; sourceTree = "<group>"; };
+		65A2D4B620049A6800910DBA /* CommonCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCode.h; sourceTree = "<group>"; };
+		65A2D4B720049A8C00910DBA /* CustomErImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomErImgView.h; sourceTree = "<group>"; };
+		65A2D4B820049AAA00910DBA /* CustomErImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomErImgView.m; sourceTree = "<group>"; };
+		65A2D4BA20049ADA00910DBA /* CustomerSearchBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerSearchBarView.h; sourceTree = "<group>"; };
+		65A2D4BB20049ADA00910DBA /* CustomerSearchBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerSearchBarView.m; sourceTree = "<group>"; };
+		65A2D4BD20049B0700910DBA /* UIImage+Rotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		65A2D4BE20049B0700910DBA /* UIImage+Rotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		65A2D4C020049B6800910DBA /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		B8738F241C50805000D110A0 /* HSLSearchDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSLSearchDevice.h; sourceTree = "<group>"; };
 		B8738F251C50805000D110A0 /* HSLSearchDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSLSearchDevice.m; sourceTree = "<group>"; };
 		B87A8C261C9900B90017FD22 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -76,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A2D4AE200498B200910DBA /* UIKit.framework in Frameworks */,
 				B87A8C271C9900B90017FD22 /* MediaPlayer.framework in Frameworks */,
 				B8738F231C507FD600D110A0 /* libIPCClientNetLib.a in Frameworks */,
 				B87E53DE1BFEFC9C00CEF23C /* libiconv.2.tbd in Frameworks */,
@@ -100,6 +131,7 @@
 		015DA612AEE44276ED144CD1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65A2D4AD200498B200910DBA /* UIKit.framework */,
 				35BBE47F7322FA76E81EF2BC /* libPods-testlib.a */,
 			);
 			name = Frameworks;
@@ -108,6 +140,8 @@
 		182F46DA1A7F671B00295F8B = {
 			isa = PBXGroup;
 			children = (
+				65A2D4B320049A1F00910DBA /* CommonCode */,
+				65A2D49C200479A200910DBA /* 第三方框架 */,
 				B87A8C261C9900B90017FD22 /* MediaPlayer.framework */,
 				B87E53DD1BFEFC9C00CEF23C /* libiconv.2.tbd */,
 				18A5873B1B2695A7000344F0 /* libStreamPlayLib.a */,
@@ -144,6 +178,7 @@
 		182F46E51A7F671B00295F8B /* testlib */ = {
 			isa = PBXGroup;
 			children = (
+				65A2D49B2004787400910DBA /* New Group */,
 				B8738F241C50805000D110A0 /* HSLSearchDevice.h */,
 				B8738F251C50805000D110A0 /* HSLSearchDevice.m */,
 				182F46EA1A7F671B00295F8B /* AppDelegate.h */,
@@ -182,6 +217,70 @@
 				182F47011A7F671C00295F8B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A2D49B2004787400910DBA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		65A2D49C200479A200910DBA /* 第三方框架 */ = {
+			isa = PBXGroup;
+			children = (
+				65A2D4AF200499A200910DBA /* JMDropMenu */,
+				65A2D4A6200497A000910DBA /* svprogress+mydefine */,
+				65A2D4A52004976400910DBA /* GCDAsyncUdpSocket */,
+			);
+			path = "第三方框架";
+			sourceTree = "<group>";
+		};
+		65A2D4A52004976400910DBA /* GCDAsyncUdpSocket */ = {
+			isa = PBXGroup;
+			children = (
+				65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */,
+				65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */,
+				65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */,
+				65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCDAsyncUdpSocket;
+			sourceTree = "<group>";
+		};
+		65A2D4A6200497A000910DBA /* svprogress+mydefine */ = {
+			isa = PBXGroup;
+			children = (
+				65A2D4A7200497D400910DBA /* SVProgressHUD+SomeThingDefine.h */,
+				65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */,
+				65A2D4AA2004981000910DBA /* UIView+MydefineView.h */,
+				65A2D4AB2004981000910DBA /* UIView+MydefineView.m */,
+			);
+			path = "svprogress+mydefine";
+			sourceTree = "<group>";
+		};
+		65A2D4AF200499A200910DBA /* JMDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				65A2D4B0200499D700910DBA /* JMDropMenu.h */,
+				65A2D4B1200499E600910DBA /* JMDropMenu.m */,
+			);
+			path = JMDropMenu;
+			sourceTree = "<group>";
+		};
+		65A2D4B320049A1F00910DBA /* CommonCode */ = {
+			isa = PBXGroup;
+			children = (
+				65A2D4B420049A4100910DBA /* CommonCode.m */,
+				65A2D4B620049A6800910DBA /* CommonCode.h */,
+				65A2D4B720049A8C00910DBA /* CustomErImgView.h */,
+				65A2D4B820049AAA00910DBA /* CustomErImgView.m */,
+				65A2D4BA20049ADA00910DBA /* CustomerSearchBarView.h */,
+				65A2D4BB20049ADA00910DBA /* CustomerSearchBarView.m */,
+				65A2D4BD20049B0700910DBA /* UIImage+Rotate.h */,
+				65A2D4BE20049B0700910DBA /* UIImage+Rotate.m */,
+				65A2D4C020049B6800910DBA /* UtilsMacro.h */,
+			);
+			path = CommonCode;
 			sourceTree = "<group>";
 		};
 		7FCBB4CD4EB346CADD3E17AE /* Pods */ = {
@@ -325,11 +424,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A2D4B2200499E600910DBA /* JMDropMenu.m in Sources */,
+				65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */,
+				65A2D4B920049AAA00910DBA /* CustomErImgView.m in Sources */,
+				65A2D4B520049A4100910DBA /* CommonCode.m in Sources */,
+				65A2D4BC20049ADA00910DBA /* CustomerSearchBarView.m in Sources */,
 				B8738F261C50805000D110A0 /* HSLSearchDevice.m in Sources */,
 				18A006201AAF11CA00B6B712 /* MyGLViewController.mm in Sources */,
+				65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */,
 				182F46EF1A7F671B00295F8B /* ViewController.m in Sources */,
+				65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */,
 				182F46EC1A7F671B00295F8B /* AppDelegate.m in Sources */,
 				182F46E91A7F671B00295F8B /* main.m in Sources */,
+				65A2D4BF20049B0700910DBA /* UIImage+Rotate.m in Sources */,
+				65A2D4AC2004981000910DBA /* UIView+MydefineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +558,7 @@
 				GCC_INPUT_FILETYPE = automatic;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/testlib/HSLSDK/inc";
 				INFOPLIST_FILE = testlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,6 +587,7 @@
 				GCC_INPUT_FILETYPE = automatic;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/testlib/HSLSDK/inc";
 				INFOPLIST_FILE = testlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
