@@ -29,6 +29,9 @@
 		18A8FB8C1AEB4835002078D9 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB8A1AEB4835002078D9 /* libmp4v2.a */; };
 		653585602004FEFF007E5997 /* NewWorkManager in Resources */ = {isa = PBXBuildFile; fileRef = 6535855F2004FEFF007E5997 /* NewWorkManager */; };
 		653585722005023D007E5997 /* HostComputerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 653585712005023D007E5997 /* HostComputerObject.m */; };
+		6535857820050307007E5997 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857720050307007E5997 /* ParentViewController.m */; };
+		6535857D2005039D007E5997 /* MyNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857C2005039D007E5997 /* MyNavViewController.m */; };
+		65358580200503F2007E5997 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857F200503F2007E5997 /* PopAnimation.m */; };
 		65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */; };
 		65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */; };
@@ -80,6 +83,12 @@
 		653585702005023D007E5997 /* HostComputerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostComputerObject.h; sourceTree = "<group>"; };
 		653585712005023D007E5997 /* HostComputerObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostComputerObject.m; sourceTree = "<group>"; };
 		65358574200502A7007E5997 /* baoboPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baoboPrefixHeader.pch; sourceTree = "<group>"; };
+		6535857620050307007E5997 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		6535857720050307007E5997 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		6535857B2005039D007E5997 /* MyNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavViewController.h; sourceTree = "<group>"; };
+		6535857C2005039D007E5997 /* MyNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavViewController.m; sourceTree = "<group>"; };
+		6535857E200503F2007E5997 /* PopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		6535857F200503F2007E5997 /* PopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
 		65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -185,6 +194,8 @@
 		182F46E51A7F671B00295F8B /* testlib */ = {
 			isa = PBXGroup;
 			children = (
+				6535857920050367007E5997 /* 组件 */,
+				65358575200502EB007E5997 /* 界面 */,
 				6535857320050281007E5997 /* 其他 */,
 				6535856F20050204007E5997 /* 对象 */,
 				B8738F241C50805000D110A0 /* HSLSearchDevice.h */,
@@ -242,6 +253,34 @@
 				65358574200502A7007E5997 /* baoboPrefixHeader.pch */,
 			);
 			name = "其他";
+			sourceTree = "<group>";
+		};
+		65358575200502EB007E5997 /* 界面 */ = {
+			isa = PBXGroup;
+			children = (
+				6535857620050307007E5997 /* ParentViewController.h */,
+				6535857720050307007E5997 /* ParentViewController.m */,
+			);
+			name = "界面";
+			sourceTree = "<group>";
+		};
+		6535857920050367007E5997 /* 组件 */ = {
+			isa = PBXGroup;
+			children = (
+				6535857A20050382007E5997 /* 导航栏组件 */,
+			);
+			name = "组件";
+			sourceTree = "<group>";
+		};
+		6535857A20050382007E5997 /* 导航栏组件 */ = {
+			isa = PBXGroup;
+			children = (
+				6535857B2005039D007E5997 /* MyNavViewController.h */,
+				6535857C2005039D007E5997 /* MyNavViewController.m */,
+				6535857E200503F2007E5997 /* PopAnimation.h */,
+				6535857F200503F2007E5997 /* PopAnimation.m */,
+			);
+			name = "导航栏组件";
 			sourceTree = "<group>";
 		};
 		65A2D49C200479A200910DBA /* 第三方框架 */ = {
@@ -453,11 +492,14 @@
 				653585722005023D007E5997 /* HostComputerObject.m in Sources */,
 				65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */,
 				182F46EF1A7F671B00295F8B /* ViewController.m in Sources */,
+				6535857820050307007E5997 /* ParentViewController.m in Sources */,
 				65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */,
 				182F46EC1A7F671B00295F8B /* AppDelegate.m in Sources */,
 				182F46E91A7F671B00295F8B /* main.m in Sources */,
+				65358580200503F2007E5997 /* PopAnimation.m in Sources */,
 				65A2D4BF20049B0700910DBA /* UIImage+Rotate.m in Sources */,
 				65A2D4AC2004981000910DBA /* UIView+MydefineView.m in Sources */,
+				6535857D2005039D007E5997 /* MyNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
