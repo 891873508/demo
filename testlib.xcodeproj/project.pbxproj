@@ -28,6 +28,7 @@
 		18A8FB8B1AEB4835002078D9 /* libfaac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB891AEB4835002078D9 /* libfaac.a */; };
 		18A8FB8C1AEB4835002078D9 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB8A1AEB4835002078D9 /* libmp4v2.a */; };
 		653585602004FEFF007E5997 /* NewWorkManager in Resources */ = {isa = PBXBuildFile; fileRef = 6535855F2004FEFF007E5997 /* NewWorkManager */; };
+		653585722005023D007E5997 /* HostComputerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 653585712005023D007E5997 /* HostComputerObject.m */; };
 		65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */; };
 		65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */; };
@@ -76,6 +77,9 @@
 		29D20868EBD09B5C49DEAEBF /* Pods-testlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlib.release.xcconfig"; path = "Pods/Target Support Files/Pods-testlib/Pods-testlib.release.xcconfig"; sourceTree = "<group>"; };
 		35BBE47F7322FA76E81EF2BC /* libPods-testlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testlib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6535855F2004FEFF007E5997 /* NewWorkManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NewWorkManager; sourceTree = "<group>"; };
+		653585702005023D007E5997 /* HostComputerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostComputerObject.h; sourceTree = "<group>"; };
+		653585712005023D007E5997 /* HostComputerObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostComputerObject.m; sourceTree = "<group>"; };
+		65358574200502A7007E5997 /* baoboPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baoboPrefixHeader.pch; sourceTree = "<group>"; };
 		65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 		182F46E51A7F671B00295F8B /* testlib */ = {
 			isa = PBXGroup;
 			children = (
+				6535857320050281007E5997 /* 其他 */,
+				6535856F20050204007E5997 /* 对象 */,
 				B8738F241C50805000D110A0 /* HSLSearchDevice.h */,
 				B8738F251C50805000D110A0 /* HSLSearchDevice.m */,
 				182F46EA1A7F671B00295F8B /* AppDelegate.h */,
@@ -219,6 +225,23 @@
 				182F47011A7F671C00295F8B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6535856F20050204007E5997 /* 对象 */ = {
+			isa = PBXGroup;
+			children = (
+				653585702005023D007E5997 /* HostComputerObject.h */,
+				653585712005023D007E5997 /* HostComputerObject.m */,
+			);
+			name = "对象";
+			sourceTree = "<group>";
+		};
+		6535857320050281007E5997 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				65358574200502A7007E5997 /* baoboPrefixHeader.pch */,
+			);
+			name = "其他";
 			sourceTree = "<group>";
 		};
 		65A2D49C200479A200910DBA /* 第三方框架 */ = {
@@ -427,6 +450,7 @@
 				65A2D4BC20049ADA00910DBA /* CustomerSearchBarView.m in Sources */,
 				B8738F261C50805000D110A0 /* HSLSearchDevice.m in Sources */,
 				18A006201AAF11CA00B6B712 /* MyGLViewController.mm in Sources */,
+				653585722005023D007E5997 /* HostComputerObject.m in Sources */,
 				65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */,
 				182F46EF1A7F671B00295F8B /* ViewController.m in Sources */,
 				65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */,
