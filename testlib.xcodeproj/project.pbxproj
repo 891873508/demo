@@ -32,6 +32,16 @@
 		6535857820050307007E5997 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857720050307007E5997 /* ParentViewController.m */; };
 		6535857D2005039D007E5997 /* MyNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857C2005039D007E5997 /* MyNavViewController.m */; };
 		65358580200503F2007E5997 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535857F200503F2007E5997 /* PopAnimation.m */; };
+		653585842005045D007E5997 /* ParentTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653585832005045D007E5997 /* ParentTabbarController.m */; };
+		65358587200504BF007E5997 /* TabbarBottomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 65358586200504BF007E5997 /* TabbarBottomBtn.m */; };
+		6535858A200504FE007E5997 /* TabNavViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 65358589200504FE007E5997 /* TabNavViewcontroller.m */; };
+		6535858E200505C8007E5997 /* AutoKeyboardField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535858D200505C8007E5997 /* AutoKeyboardField.m */; };
+		65358591200505F8007E5997 /* HomeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65358590200505F8007E5997 /* HomeCellView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6535859420050682007E5997 /* NavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535859320050682007E5997 /* NavBarView.m */; };
+		65358597200506AD007E5997 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65358596200506AD007E5997 /* RadioButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6535859D20050768007E5997 /* RadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535859C20050768007E5997 /* RadioView.m */; };
+		653585A020050795007E5997 /* SelectAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535859F20050795007E5997 /* SelectAlert.m */; };
+		653585A3200507D0007E5997 /* VerticalCenterTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 653585A2200507D0007E5997 /* VerticalCenterTextLabel.m */; };
 		65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */; };
 		65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */; };
@@ -89,6 +99,26 @@
 		6535857C2005039D007E5997 /* MyNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavViewController.m; sourceTree = "<group>"; };
 		6535857E200503F2007E5997 /* PopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
 		6535857F200503F2007E5997 /* PopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		653585822005045D007E5997 /* ParentTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentTabbarController.h; sourceTree = "<group>"; };
+		653585832005045D007E5997 /* ParentTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentTabbarController.m; sourceTree = "<group>"; };
+		65358585200504BF007E5997 /* TabbarBottomBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarBottomBtn.h; sourceTree = "<group>"; };
+		65358586200504BF007E5997 /* TabbarBottomBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarBottomBtn.m; sourceTree = "<group>"; };
+		65358588200504FE007E5997 /* TabNavViewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabNavViewcontroller.h; sourceTree = "<group>"; };
+		65358589200504FE007E5997 /* TabNavViewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabNavViewcontroller.m; sourceTree = "<group>"; };
+		6535858C200505C8007E5997 /* AutoKeyboardField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoKeyboardField.h; sourceTree = "<group>"; };
+		6535858D200505C8007E5997 /* AutoKeyboardField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoKeyboardField.m; sourceTree = "<group>"; };
+		6535858F200505F8007E5997 /* HomeCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellView.h; sourceTree = "<group>"; };
+		65358590200505F8007E5997 /* HomeCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellView.m; sourceTree = "<group>"; };
+		6535859220050682007E5997 /* NavBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavBarView.h; sourceTree = "<group>"; };
+		6535859320050682007E5997 /* NavBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarView.m; sourceTree = "<group>"; };
+		65358595200506AD007E5997 /* RadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		65358596200506AD007E5997 /* RadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		6535859B20050768007E5997 /* RadioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioView.h; sourceTree = "<group>"; };
+		6535859C20050768007E5997 /* RadioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioView.m; sourceTree = "<group>"; };
+		6535859E20050795007E5997 /* SelectAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectAlert.h; sourceTree = "<group>"; };
+		6535859F20050795007E5997 /* SelectAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectAlert.m; sourceTree = "<group>"; };
+		653585A1200507D0007E5997 /* VerticalCenterTextLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalCenterTextLabel.h; sourceTree = "<group>"; };
+		653585A2200507D0007E5997 /* VerticalCenterTextLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalCenterTextLabel.m; sourceTree = "<group>"; };
 		65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -267,6 +297,8 @@
 		6535857920050367007E5997 /* 组件 */ = {
 			isa = PBXGroup;
 			children = (
+				6535858B20050574007E5997 /* 其他组件 */,
+				653585812005043F007E5997 /* 分类组件 */,
 				6535857A20050382007E5997 /* 导航栏组件 */,
 			);
 			name = "组件";
@@ -281,6 +313,40 @@
 				6535857F200503F2007E5997 /* PopAnimation.m */,
 			);
 			name = "导航栏组件";
+			sourceTree = "<group>";
+		};
+		653585812005043F007E5997 /* 分类组件 */ = {
+			isa = PBXGroup;
+			children = (
+				653585822005045D007E5997 /* ParentTabbarController.h */,
+				653585832005045D007E5997 /* ParentTabbarController.m */,
+				65358585200504BF007E5997 /* TabbarBottomBtn.h */,
+				65358586200504BF007E5997 /* TabbarBottomBtn.m */,
+				65358588200504FE007E5997 /* TabNavViewcontroller.h */,
+				65358589200504FE007E5997 /* TabNavViewcontroller.m */,
+			);
+			name = "分类组件";
+			sourceTree = "<group>";
+		};
+		6535858B20050574007E5997 /* 其他组件 */ = {
+			isa = PBXGroup;
+			children = (
+				6535858C200505C8007E5997 /* AutoKeyboardField.h */,
+				6535858D200505C8007E5997 /* AutoKeyboardField.m */,
+				6535858F200505F8007E5997 /* HomeCellView.h */,
+				65358590200505F8007E5997 /* HomeCellView.m */,
+				6535859220050682007E5997 /* NavBarView.h */,
+				6535859320050682007E5997 /* NavBarView.m */,
+				65358595200506AD007E5997 /* RadioButton.h */,
+				65358596200506AD007E5997 /* RadioButton.m */,
+				6535859B20050768007E5997 /* RadioView.h */,
+				6535859C20050768007E5997 /* RadioView.m */,
+				6535859E20050795007E5997 /* SelectAlert.h */,
+				6535859F20050795007E5997 /* SelectAlert.m */,
+				653585A1200507D0007E5997 /* VerticalCenterTextLabel.h */,
+				653585A2200507D0007E5997 /* VerticalCenterTextLabel.m */,
+			);
+			name = "其他组件";
 			sourceTree = "<group>";
 		};
 		65A2D49C200479A200910DBA /* 第三方框架 */ = {
@@ -482,21 +548,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6535858E200505C8007E5997 /* AutoKeyboardField.m in Sources */,
 				65A2D4B2200499E600910DBA /* JMDropMenu.m in Sources */,
 				65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */,
 				65A2D4B920049AAA00910DBA /* CustomErImgView.m in Sources */,
+				6535858A200504FE007E5997 /* TabNavViewcontroller.m in Sources */,
+				65358597200506AD007E5997 /* RadioButton.m in Sources */,
 				65A2D4B520049A4100910DBA /* CommonCode.m in Sources */,
 				65A2D4BC20049ADA00910DBA /* CustomerSearchBarView.m in Sources */,
 				B8738F261C50805000D110A0 /* HSLSearchDevice.m in Sources */,
 				18A006201AAF11CA00B6B712 /* MyGLViewController.mm in Sources */,
 				653585722005023D007E5997 /* HostComputerObject.m in Sources */,
+				653585A020050795007E5997 /* SelectAlert.m in Sources */,
 				65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */,
 				182F46EF1A7F671B00295F8B /* ViewController.m in Sources */,
+				653585842005045D007E5997 /* ParentTabbarController.m in Sources */,
 				6535857820050307007E5997 /* ParentViewController.m in Sources */,
+				653585A3200507D0007E5997 /* VerticalCenterTextLabel.m in Sources */,
 				65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */,
+				65358587200504BF007E5997 /* TabbarBottomBtn.m in Sources */,
 				182F46EC1A7F671B00295F8B /* AppDelegate.m in Sources */,
+				6535859D20050768007E5997 /* RadioView.m in Sources */,
 				182F46E91A7F671B00295F8B /* main.m in Sources */,
+				65358591200505F8007E5997 /* HomeCellView.m in Sources */,
 				65358580200503F2007E5997 /* PopAnimation.m in Sources */,
+				6535859420050682007E5997 /* NavBarView.m in Sources */,
 				65A2D4BF20049B0700910DBA /* UIImage+Rotate.m in Sources */,
 				65A2D4AC2004981000910DBA /* UIView+MydefineView.m in Sources */,
 				6535857D2005039D007E5997 /* MyNavViewController.m in Sources */,
