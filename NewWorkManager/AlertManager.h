@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVProgressHUD+SomeThingDefine.h"
+
 @interface AlertManager : NSObject
 ///单例对象
 + (AlertManager *)alertManager;
@@ -16,4 +16,3 @@
 //错误提示
 - (void)showError:(NSTimeInterval)time string:(NSString*)str;
 @end
-

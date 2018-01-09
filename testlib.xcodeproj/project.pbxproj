@@ -27,6 +27,7 @@
 		18A5873C1B2695A7000344F0 /* libStreamPlayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A5873B1B2695A7000344F0 /* libStreamPlayLib.a */; };
 		18A8FB8B1AEB4835002078D9 /* libfaac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB891AEB4835002078D9 /* libfaac.a */; };
 		18A8FB8C1AEB4835002078D9 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8FB8A1AEB4835002078D9 /* libmp4v2.a */; };
+		653585602004FEFF007E5997 /* NewWorkManager in Resources */ = {isa = PBXBuildFile; fileRef = 6535855F2004FEFF007E5997 /* NewWorkManager */; };
 		65A2D49E20047A0300910DBA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		65A2D4A4200496C900910DBA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A3200496C900910DBA /* GCDAsyncUdpSocket.m */; };
 		65A2D4A9200497D400910DBA /* SVProgressHUD+SomeThingDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2D4A8200497D400910DBA /* SVProgressHUD+SomeThingDefine.m */; };
@@ -74,6 +75,7 @@
 		18A8FB8A1AEB4835002078D9 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4v2.a; path = testlib/lib/libmp4v2.a; sourceTree = "<group>"; };
 		29D20868EBD09B5C49DEAEBF /* Pods-testlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testlib.release.xcconfig"; path = "Pods/Target Support Files/Pods-testlib/Pods-testlib.release.xcconfig"; sourceTree = "<group>"; };
 		35BBE47F7322FA76E81EF2BC /* libPods-testlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testlib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6535855F2004FEFF007E5997 /* NewWorkManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NewWorkManager; sourceTree = "<group>"; };
 		65A2D49D20047A0300910DBA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		65A2D49F20047A3700910DBA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		65A2D4A2200496B000910DBA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		182F46DA1A7F671B00295F8B = {
 			isa = PBXGroup;
 			children = (
+				6535855F2004FEFF007E5997 /* NewWorkManager */,
 				65A2D4B320049A1F00910DBA /* CommonCode */,
 				65A2D49C200479A200910DBA /* 第三方框架 */,
 				B87A8C261C9900B90017FD22 /* MediaPlayer.framework */,
@@ -178,7 +181,6 @@
 		182F46E51A7F671B00295F8B /* testlib */ = {
 			isa = PBXGroup;
 			children = (
-				65A2D49B2004787400910DBA /* New Group */,
 				B8738F241C50805000D110A0 /* HSLSearchDevice.h */,
 				B8738F251C50805000D110A0 /* HSLSearchDevice.m */,
 				182F46EA1A7F671B00295F8B /* AppDelegate.h */,
@@ -217,13 +219,6 @@
 				182F47011A7F671C00295F8B /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		65A2D49B2004787400910DBA /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 		65A2D49C200479A200910DBA /* 第三方框架 */ = {
@@ -356,6 +351,7 @@
 			files = (
 				18A0062B1AAF1E1500B6B712 /* Shader.fsh in Resources */,
 				18A0062C1AAF1E1500B6B712 /* Shader.vsh in Resources */,
+				653585602004FEFF007E5997 /* NewWorkManager in Resources */,
 				182F46F21A7F671B00295F8B /* Main.storyboard in Resources */,
 				182F46F71A7F671B00295F8B /* LaunchScreen.xib in Resources */,
 				182F46F41A7F671B00295F8B /* Images.xcassets in Resources */,

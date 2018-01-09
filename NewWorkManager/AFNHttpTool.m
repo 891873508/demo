@@ -28,7 +28,7 @@
     [manager.requestSerializer setValue:@"" forHTTPHeaderField:@"key"];
     
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/javascript", @"text/plain", nil];
-    
+   
     
     //     [manager.requestSerializer setValue:@"application/json;charset=UTF-8" forHTTPHeaderField:@"content-type"];
     
@@ -37,7 +37,7 @@
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
-            
+       
             success(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -64,19 +64,19 @@
     //设置Header
     
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/javascript", @"text/plain", nil];
-    
-    
+   
+ 
     //发起请求
     [manager POST:url parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
-            
+          
             success(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         if (failure) {
-            
+         
             failure(error);
         }
     }];
@@ -87,25 +87,25 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
     //设置Header
-    
+   
     
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/javascript", @"text/plain", nil];
     
-    
+   
     
     //设置Header
-    
+  
     //发起请求
     [manager POST:url parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
-            
+          
             success(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         if (failure) {
-            
+          
             failure(error);
         }
     }];
@@ -125,20 +125,20 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
     //设置Header
-    
+   
     
     //发起请求
     [manager POST:url parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
-            
+        
             
             success(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         if (failure) {
-            
+        
             failure(error);
         }
     }];
@@ -158,7 +158,7 @@
 {
     //创建管理者
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    
+
     //创建请求，拼接图片数据
     NSMutableURLRequest *request = [manager.requestSerializer multipartFormRequestWithMethod:@"POST" URLString:url parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         
@@ -182,7 +182,7 @@
             }
         }else {
             if (success) {
-                
+            
                 
                 success(responseObject);
             }
@@ -200,7 +200,7 @@
     //创建管理者
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
-    
+ 
     //创建请求Request
     NSURL *URL = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
@@ -227,4 +227,3 @@
 
 
 @end
-

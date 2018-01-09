@@ -24,4 +24,3 @@
 //忘记密码
 - (void)forgetpwdWithParameters:(NSDictionary *)dic success:(void(^)(id data))success failure:(void(^)(NSError *error))failure;
 @end
-
